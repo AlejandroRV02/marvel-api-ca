@@ -16,7 +16,7 @@ Nest is [MIT licensed](LICENSE).
 
 ## Documentación
 
-- La documentación de los endpoints se puede encontrar en:
+- La documentación de los endpoints se puede encontrar en: https://marvel-api-ca.onrender.com/api/docs 
 - La herramienta utilizada fue Swagger 
 
 ## Problemas durante el desarrollo
