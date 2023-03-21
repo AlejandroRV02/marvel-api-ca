@@ -6,5 +6,6 @@ import { SeriesModule } from './series/infrastructure/series.module';
 
 @Module({
   imports: [ConfigModule.forRoot({ isGlobal: true }), CharactersModule, ComicsModule, SeriesModule],
+
 })
 export class AppModule { }
