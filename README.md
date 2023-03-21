@@ -27,6 +27,8 @@ Nest is [MIT licensed](LICENSE).
 
 - El Dockerfile NO es de mi creación debido a que no había Dockerizado una applicación de Nest, si de Node con Express, que es muy similar, sin embargo como parte de la investigación, decidí mantenerlo como muestra de aprendizaje.
 
+- El desarrollo lo enfoque a 3 entidades principales: Personajes, comics y series. Sin embargo, por falta de tiempo solo pude consumir o acoplar la solución a una (personajes). A pesar de eso considero que la lógica para los demás endpoints de las diferentes entidades, sería practicamente igual.
+
 ## Ejecutar la aplicación
 
 - Con Docker: docker-compose up -d
