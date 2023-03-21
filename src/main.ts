@@ -7,12 +7,12 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   app.setGlobalPrefix('api');
   const options = new DocumentBuilder()
-    .setTitle('MTC')
-    .setDescription('MTC')
+    .setTitle('MIC')
+    .setDescription('MIT')
     .setVersion('1.0')
     .setContact(
       'Alejandro Rodriguez',
-      'https://www.linkedin.com/in/alejandro/',
+      'https://www.linkedin.com/in/alejandro-rv02/',
       'alejandrorv944@gmail.com',
     )
     //.addBearerAuth()
