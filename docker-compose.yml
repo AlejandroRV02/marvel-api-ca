@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  marvel-api-ca:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    env_file:
+      - .env
+    ports:
+      - '8090:8090'
