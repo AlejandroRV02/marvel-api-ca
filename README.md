@@ -35,3 +35,9 @@ Nest is [MIT licensed](LICENSE).
 
 - Pensé en implementar un mecanismo de autenticación para los usuarios, ya que la API de Marvel tiene un número limitado de peticiones, asi no cualquier persona podría utilizar la aplicación.
 - Por esta misma razón había pensado en implementar una caché para poder almacenar requests recurrentes, y asi no gastar las peticiones limitadas y quizás poder tener un tiempo de respuesta menor en ciertos escenarios
+
+# Conclusiones
+
+- Considero que el objetivo de la prueba se cumplió, sin embargo cambiaría lo siguiente:
+	- Crear o seguir una estrategia de branch para el control de versiones (no trabajar sobre una misma rama)
+	- Tratar de seguir un approach TDD, o incluir los tests correspondientes
